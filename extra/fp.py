@@ -23,8 +23,8 @@ def main():
 
                    - call git fetch in the repo
 
-                   - calls post-receive in the repo's hooks dir with "before",
-                     "after," and "ref" as parsed from the json passed in on
+                   - calls post-receive in the repo's hooks dir with the "ref",
+                     "before", and "after" as parsed from the json passed in on
                      stdin
                    """)
     parser = OptionParser()
